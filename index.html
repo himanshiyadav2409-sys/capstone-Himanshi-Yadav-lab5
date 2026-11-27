@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderlust — Indian Mountain Escapes & Coastal Getaways</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" aria-label="Wanderlust Home">
+        <span class="logo-icon">✦</span>
+        <span class="brand-name">Wanderlust</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#gallery">Photo Board</a></li>
+          <li><a href="#itinerary">Itinerary</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#inquiry" class="nav-cta">Plan a Trip</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cursor-Panning Poster Hero -->
+  <section class="poster-hero" id="posterHero" aria-label="Featured Indian Mountain & Coastal Hero">
+    <div class="hero-pan-layer" id="heroPanLayer"></div>
+    <div class="hero-scrim"></div>
+
+    <div class="hero-stage" id="heroStage">
+      <div class="hero-top-tag">
+        <span>WANDERLUST INDIA</span>
+        <span class="tag-divider">✕</span>
+        <span>HIMALAYAS & COAST</span>
+      </div>
+
+      <div class="hero-main-lockup">
+        <span class="hero-side-year">HIMACHAL</span>
+        <h1 class="hero-display-title">PEAKS & VALLEYS</h1>
+        <span class="hero-side-year">COAST</span>
+      </div>
+
+      <p class="hero-script-sub">
+        <em>Mountain Passes</em> <span>&</span> <em>Golden Shores</em>
+      </p>
+      <p class="hero-micro-cap">
+        CELEBRATING INDIAN HIGHLANDS & SELECT BEACH ESCAPES
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#packages" class="hero-pill-btn">START YOUR JOURNEY</a>
+        <a href="#gallery" class="hero-sub-link">EXPLORE PHOTO BOARD</a>
+      </div>
+    </div>
+
+    <div class="hero-bottom-left">
+      <p>
+        MANALI, SPITI & KASOL MOUNTAIN TRAILS and GOA & GOKARNA BEACH GETAWAYS.
+      </p>
+    </div>
+  </section>
+
+  <main id="main-content">
+    <!-- Section 1: Popular Indian Destinations (Mostly Mountains + Select Beaches) -->
+    <section id="destinations" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">HANDPICKED IN INDIA</span>
+          <h2 class="section-title">Popular Destinations</h2>
+          <p class="section-subtitle">
+            Mostly Himalayan ridges, pine valleys, and high mountain passes—paired with a few serene beach escapes.
+          </p>
+        </div>
+
+        <div class="destinations-grid">
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80"
+              alt="Dramatic high mountain peaks above clouds in the Himalayas"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Mountain Pass</span>
+              <h3>Spiti Valley, Himachal</h3>
+              <p>High-altitude desert mountains, ancient monasteries, starry nights, and winding pass roads.</p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+              alt="Mountain valley river surrounded by tall pine hills at golden hour"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Pine Valley</span>
+              <h3>Kasol & Parvati Valley</h3>
+              <p>Cedar forests, riverside bonfires, café trails, and misty mountain mornings.</p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=900&q=80"
+              alt="Steep mountain slopes and alpine ridge under clear sky"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Hill Station</span>
+              <h3>Manali & Solang Ridge</h3>
+              <p>Snow-kissed peaks, deodar forest stays, scenic drives, and crisp mountain air.</p>
+            </div>
+          </article>
+
+          <article class="dest-card">
+            <img
+              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
+              alt="Sandy coast with gentle turquoise waves at sunset"
+            />
+            <div class="dest-info">
+              <span class="dest-tag">Beach Escape</span>
+              <h3>South Goa & Gokarna</h3>
+              <p>Quiet coves, golden sand, breezy palms, and relaxed coastal sunsets.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Tour Packages -->
+    <section id="packages" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">CURATED PACKAGES</span>
+          <h2 class="section-title">Signature Mountain & Beach Tours</h2>
+          <p class="section-subtitle">
+            All-inclusive stays, scenic road transfers, and unhurried daily plans.
+          </p>
+        </div>
+
+        <div class="packages-grid">
+          <article class="package-card featured-package">
+            <div class="package-media">
+              <img
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=80"
+                alt="Starry night sky glowing over snow-dusted mountain peaks"
+              />
+              <span class="duration-pill">6 Days / 5 Nights</span>
+              <span class="popular-ribbon">Top Mountain Pick</span>
+            </div>
+            <div class="package-body">
+              <div class="package-meta">
+                <span class="rating">★ 4.95 (184 reviews)</span>
+                <span class="price">₹18,999</span>
+              </div>
+              <h3>Spiti & High-Pass Expedition</h3>
+              <p>
+                Scenic Himalayan road trip, high-altitude ridge viewpoints, stargazing camp, and local pahadi meals.
+              </p>
+              <ul class="package-perks">
+                <li>Panoramic Mountain Stays</li>
+                <li>Guided Pass & Monastery Stops</li>
+                <li>Bonfire & Stargazing Night</li>
+              </ul>
+              <a href="#inquiry" class="btn btn-primary">Book Mountain Trip</a>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-media">
+              <img
+                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80"
+                alt="Sunlight streaming through tall green forest trees in the hills"
+              />
+              <span class="duration-pill">5 Days / 4 Nights</span>
+            </div>
+            <div class="package-body">
+              <div class="package-meta">
+                <span class="rating">★ 4.9 (136 reviews)</span>
+                <span class="price">₹14,499</span>
+              </div>
+              <h3>Manali & Kasol Pine Retreat</h3>
+              <p>
+                Slow mornings in a timber cabin, deodar forest walks, café stops, and misty valley views.
+              </p>
+              <ul class="package-perks">
+                <li>Forest View Cabin Stay</li>
+                <li>Daily Breakfast & Trail Snacks</li>
+                <li>Volvo / Private Hill Transfers</li>
+              </ul>
+              <a href="#inquiry" class="btn btn-outline">Book Cabin Retreat</a>
+            </div>
+          </article>
+
+          <article class="package-card">
+            <div class="package-media">
+              <img
+                src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80"
+                alt="Golden sunset glow along a sandy Indian beach shoreline"
+              />
+              <span class="duration-pill">4 Days / 3 Nights</span>
+            </div>
+            <div class="package-body">
+              <div class="package-meta">
+                <span class="rating">★ 4.88 (119 reviews)</span>
+                <span class="price">₹15,999</span>
+              </div>
+              <h3>Goa & Gokarna Cove Escape</h3>
+              <p>
+                Unwind on calmer coastal beaches, hop between cliffside coves, and catch sunset views by the shore.
+              </p>
+              <ul class="package-perks">
+                <li>Boutique Coastal Stay</li>
+                <li>Cove Hopping & Sunset Point</li>
+                <li>Local Transfers Included</li>
+              </ul>
+              <a href="#inquiry" class="btn btn-outline">Book Beach Trip</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Pinterest Photo Board -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">AESTHETIC VISUAL BOARD</span>
+          <h2 class="section-title">Traveler Photo Board</h2>
+          <p class="section-subtitle">
+            Mountain mornings, pine trails, and coastal sunset frames from Indian getaways.
+          </p>
+        </div>
+
+        <div class="photo-board">
+          <figure class="pin-item pin-tall">
+            <img
+              src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=900&q=80"
+              alt="Sunlit mountain ridge stretching across a scenic Himalayan valley"
+            />
+            <figcaption>Himachal Ridge • Sunrise</figcaption>
+          </figure>
+
+          <figure class="pin-item">
+            <img
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80"
+              alt="Sunlight filtering through tall green pine trees"
+            />
+            <figcaption>Kasol Pine Canopy</figcaption>
+          </figure>
+
+          <figure class="pin-item">
+            <img
+              src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=900&q=80"
+              alt="Coastal view overlooking calm blue ocean water"
+            />
+            <figcaption>Gokarna Afternoon Breeze</figcaption>
+          </figure>
+
+          <figure class="pin-item">
+            <img
+              src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=900&q=80"
+              alt="Foggy green hills and misty mountain valley at dawn"
+            />
+            <figcaption>Manali Misty Valley</figcaption>
+          </figure>
+
+          <figure class="pin-item">
+            <img
+              src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=900&q=80"
+              alt="Golden sunset glow along a sandy beach shoreline"
+            />
+            <figcaption>South Goa Golden Hour</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Sample Indian Mountain Itinerary + Travel Tips Aside -->
+    <section id="itinerary" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">DAY-BY-DAY PLAN</span>
+          <h2 class="section-title">4-Day Manali & Solang Itinerary</h2>
+          <p class="section-subtitle">
+            Designed for scenic mountain viewpoints, comfortable pacing, and great photo spots.
+          </p>
+        </div>
+
+        <div class="itinerary-layout">
+          <div class="timeline">
+            <article class="timeline-item">
+              <img
+                class="timeline-thumb"
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=300&q=80"
+                alt="Mountain peaks in the distance"
+              />
+              <span class="day-badge">Day 01</span>
+              <div class="timeline-content">
+                <h3>Arrival in Manali & Old Manali Walk</h3>
+                <p>
+                  Settle into your mountain stay, unwind by the crisp riverside breeze, and explore cozy Old Manali cafés.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <img
+                class="timeline-thumb"
+                src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=300&q=80"
+                alt="Sunrise mountain ridge"
+              />
+              <span class="day-badge">Day 02</span>
+              <div class="timeline-content">
+                <h3>Sunrise Ridge Viewpoint & Deodar Trail</h3>
+                <p>
+                  Catch early mountain light, sip hot masala chai overlooking the valley, and walk through quiet pine paths.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <img
+                class="timeline-thumb"
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=300&q=80"
+                alt="Alpine river valley"
+              />
+              <span class="day-badge">Day 03</span>
+              <div class="timeline-content">
+                <h3>Solang Valley & High Mountain Drive</h3>
+                <p>
+                  Head toward dramatic ridge views and open mountain bends with plenty of stops for photos and rest.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <img
+                class="timeline-thumb"
+                src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=300&q=80"
+                alt="Night sky over snowy peaks"
+              />
+              <span class="day-badge">Day 04</span>
+              <div class="timeline-content">
+                <h3>Bonfire Evening & Return Journey</h3>
+                <p>
+                  Wrap up with a relaxed morning view, pick up local woolens or snacks, and start your trip back.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="travel-aside" aria-label="Traveler Essentials">
+            <img
+              class="aside-photo"
+              src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=700&q=80"
+              alt="Rocky mountain summit under clear sky"
+            />
+            <h3>Traveler Essentials</h3>
+            <p class="aside-intro">
+              Quick tips and perks included with every Wanderlust booking:
+            </p>
+            <ul class="essentials-list">
+              <li><strong>Layered Packing Guide:</strong> Easy checklist for chilly hill nights and sunny afternoons.</li>
+              <li><strong>Flexible Dates:</strong> Free rescheduling up to 14 days before departure.</li>
+              <li><strong>24/7 Trip Support:</strong> Direct assistance throughout your route.</li>
+              <li><strong>Verified Stays:</strong> Clean, scenic mountain stays and beach resorts.</li>
+            </ul>
+            <a href="#inquiry" class="btn btn-primary btn-full">Request Custom Itinerary</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Traveler Testimonials -->
+    <section id="reviews" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">TRAVELER STORIES</span>
+          <h2 class="section-title">What Our Explorers Say</h2>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">
+              “Our Spiti and Manali trip felt straight out of a Pinterest board. Zero rush and crazy mountain views every morning.”
+            </p>
+            <div class="reviewer">
+              <img
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
+                alt="Portrait of Ananya Sharma"
+              />
+              <div>
+                <h4>Ananya Sharma</h4>
+                <span>Spiti & High-Pass Expedition</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">
+              “Loved the pine forest stay in Kasol and smooth hill transfers. Great budget and super chilled vibe.”
+            </p>
+            <div class="reviewer">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+                alt="Portrait of Rohan Mehta"
+              />
+              <div>
+                <h4>Rohan Mehta</h4>
+                <span>Manali & Kasol Pine Retreat</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-quote">
+              “Did our mountain trip first and then South Goa—clean stays, calm beaches, and unforgettable sunsets.”
+            </p>
+            <div class="reviewer">
+              <img
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200&q=80"
+                alt="Portrait of Meera Kapoor"
+              />
+              <div>
+                <h4>Meera Kapoor</h4>
+                <span>Goa & Gokarna Cove Escape</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Inquiry & Booking Form -->
+    <section id="inquiry" class="section section-alt">
+      <div class="container">
+        <div class="inquiry-wrapper">
+          <div class="inquiry-copy">
+            <img
+              class="inquiry-banner-img"
+              src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80"
+              alt="Misty green Indian mountain hills at dawn"
+            />
+            <span class="section-kicker">CUSTOM TRIP PLANNER</span>
+            <h2>Plan Your Next Mountain or Beach Trip</h2>
+            <p>
+              Pick your vibe—Himalayan passes, pine valleys, or a sunny beach break—and we will send a custom plan.
+            </p>
+            <ul class="contact-highlights">
+              <li>✦ Friend group, solo & family itineraries</li>
+              <li>✦ Custom budget & travel dates</li>
+              <li>✦ Direct support: hello@wanderlustescapes.com</li>
+            </ul>
+          </div>
+
+          <form class="inquiry-form" action="#" method="post">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input
+                  type="text"
+                  id="full-name"
+                  name="full-name"
+                  placeholder="e.g., Rudraksh Soni"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="rudraksh@example.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="destination">Preferred Escape *</label>
+                <select id="destination" name="destination" required>
+                  <option value="" disabled selected>Select a destination</option>
+                  <option value="spiti-valley">Spiti Valley, Himachal (Mountain)</option>
+                  <option value="kasol-parvati">Kasol & Parvati Valley (Mountain)</option>
+                  <option value="manali-solang">Manali & Solang Ridge (Mountain)</option>
+                  <option value="goa-gokarna">South Goa & Gokarna (Beach)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="travel-date">Preferred Travel Month *</label>
+                <input type="month" id="travel-date" name="travel-date" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Trip Notes & Group Size</label>
+              <textarea
+                id="notes"
+                name="notes"
+                rows="4"
+                placeholder="Number of travelers, mountain or beach preference, or special dates..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Send Trip Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="brand-logo footer-logo">
+          <span class="logo-icon">✦</span>
+          <span class="brand-name">Wanderlust</span>
+        </a>
+        <p>
+          Indian mountain-first adventures and select coastal escapes with clean design and memorable routes.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#destinations">Popular Destinations</a></li>
+          <li><a href="#packages">Tour Packages</a></li>
+          <li><a href="#gallery">Photo Board</a></li>
+          <li><a href="#itinerary">Sample Itinerary</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@wanderlustescapes.com">hello@wanderlustescapes.com</a></li>
+          <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li>Gurugram & Sohna, India</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Wanderlust Travel Co. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      const hero = document.getElementById("posterHero");
+      const bgLayer = document.getElementById("heroPanLayer");
+      const stage = document.getElementById("heroStage");
+
+      if (!hero || !bgLayer || !stage) return;
+
+      let targetX = 0;
+      let targetY = 0;
+      let currentX = 0;
+      let currentY = 0;
+
+      hero.addEventListener("mousemove", (e) => {
+        const rect = hero.getBoundingClientRect();
+        const normX = (e.clientX - rect.left) / rect.width - 0.5;
+        const normY = (e.clientY - rect.top) / rect.height - 0.5;
+        targetX = normX * 2;
+        targetY = normY * 2;
+      });
+
+      hero.addEventListener("mouseleave", () => {
+        targetX = 0;
+        targetY = 0;
+      });
+
+      function animatePan() {
+        currentX += (targetX - currentX) * 0.08;
+        currentY += (targetY - currentY) * 0.08;
+
+        const bgMoveX = (-currentX * 28).toFixed(2);
+        const bgMoveY = (-currentY * 18).toFixed(2);
+        const textMoveX = (currentX * 12).toFixed(2);
+        const textMoveY = (currentY * 8).toFixed(2);
+
+        bgLayer.style.transform = `translate3d(${bgMoveX}px, ${bgMoveY}px, 0) scale(1.09)`;
+        stage.style.transform = `translate3d(${textMoveX}px, ${textMoveY}px, 0)`;
+
+        requestAnimationFrame(animatePan);
+      }
+
+      animatePan();
+    })();
+  </script>
+</body>
+</html>
